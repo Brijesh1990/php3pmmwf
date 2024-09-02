@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+<!-- header -->
+ <div class="container-fluid p-5">
+    <!-- call me -->
+     <div class="row">
+        <div class="col-md-3">
+            <b><span class="bi bi-telephone"></span> Call me : (+91)9998003879</b>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="input-group">
+                <input type="text" name="search" placeholder="Search anything here.........." class="form-control">
+                <button type="button" class="btn btn-dark text-white"><span class="bi bi-search"></span></button>
+            </div>
+            </div>
+            <div class="col-md-3">
+                <span class="bi bi-facebook ms-2 fs-5"></span>
+                <span class="bi bi-instagram ms-2 fs-5"></span>
+                <span class="bi bi-whatsapp ms-2 fs-5"></span>
+                <span class="bi bi-snapchat ms-2 fs-5"></span>
+                <span class="bi bi-twitter ms-2 fs-5"></span>
+            </div>
+        </div>
+     </div>
+ </div>
+<!-- navbar here -->
+ <nav class="nav navbar navbar-expand-md bg-dark text-white p-3">
+    <a href="" class="navbar-brand text-white">CRUD App</a>
+    <!-- navbar -->
+     <button class="btn btn-md bg-light navbar-toggler" data-bs-toggle="collapse" data-bs-target="#togg">
+        <span class="bi bi-grid"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="togg">
+     <ul class="navbar-link">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">Products</a>
+    
+        <ul class="dropdown-menu bg-dark" style="min-width:220px !important">
+            <li><a href="#">Mens Products</a></li>
+            <li><a href="#">Womens Products</a></li> 
+            <li><a href="#">Kids Products</a></li> 
+        </ul>
+    
+      </li>
+      <li><a href="#">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cart.html">Cart <span class="bi bi-cart-dash"><span class="badge badge-danger bg-danger ms-1">0</span></a></li>
+     </ul>
+     </div>
+ </nav>
+
+ <!-- contact us page -->
+ <div class="container p-5 mt-2">
+  <h2>Contact with us <span class="bi bi-person"></span>
+  </h2>
+  <hr>
+  <div class="row">
+    <div class="col-md-6">
+        <p><b class="fs-3">Our office Address</b></p>
+        <p>101, Aditya Complex, Jalaram 2 Street Number 2, above Sbi Bank, Near Indira Circle, Jala Ram Nagar, Rajkot, Gujarat 360005</p>
+        <p><b>Hours:</b> Open ⋅ Closes 7:30 pm</p>
+        <p><b>Phone:</b> 097240 04242</p>
+        <p><b>From TOPS Technologies</b></p>
+        <p>"Best IT Training Institute in Rajkot Near Me TOPS Technologies in Rajkot has trained over 50,000 students since 2008 and is The Best IT Training Institute near you, offering Graphic Design Course, Web Design Courses, Web Development Courses, Python Development Course, Software Testing Course and IT Courses through Live Project Training, We have tie-ups with 3000+ IT companies in Rajkot to ensure 100% Job Assistance. our courses are accredited by the NSDC, providing you with gov-certified credentials. Best Featured Courses : Graphic Design Course in Rajkot, Web Design Courses in Rajkot, Web Development Courses in Rajkot, Python Development Course in Rajkot, Digital Marketing Courses in Rajkot"</p>
+    </div>
+    <div class="col-md-6">
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d118133.77956216878!2d70.69255357226606!3d22.290085304537417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3959ca248c77c099%3A0xdf5ac10af64ac8ee!2s101%2C%20Aditya%20Complex%2C%20Jalaram%202%20Street%20Number%202%2C%20above%20Sbi%20Bank%2C%20Near%20Indira%20Circle%2C%20Jala%20Ram%20Nagar%2C%20Rajkot%2C%20Gujarat%20360005!3m2!1d22.2901061!2d70.7749552!5e0!3m2!1sen!2sin!4v1722420378186!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    </div>
+  </div>
+ 
+
+ </div>
+
+
+<!-- add modal for add employee -->
+ <div class="modal fade" id="addemp" role="dialog">
+  <div class="modal-dialog"  style="min-width:60% !important; margin-top: 5% !important;">
+    <div class="modal-content mt-5 p-0">
+      <div class="row">
+        <div class="col-md-6 bg-dark p-5">
+          <h3 class="text-white">Why join with us</h3>
+          <hr class="border border-white border-1 w-50">
+          <ul class="sidebar">
+            <li><a href="">24x7 support</a></li>
+            <li><a href="">Return policy</a></li>
+            <li><a href="">Customers care support</a></li>
+            <li><a href="">Secured payments</a></li>
+            <li class="mt-5"><a href=""><img src="https://cdn-icons-png.flaticon.com/512/1256/1256628.png" class="img-fluid w-50" /></a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-6 bg-white p-5">
+          <h2>Add Employee <span class="bi bi-person"></span>  <button type="button" class="btn btn-sm border border-0 btn-danger float-end" data-bs-dismiss="modal">&times;</button></h2>
+          <hr class="border border-dark border-1 w-50">
+
+          <form method="post">
+            <div class="form-group mt-3">
+              <input type="text" name="fname" placeholder="FirstName *" class="form-control">
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" name="lname" placeholder="LastName *" class="form-control">
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" name="email" placeholder="Email *" class="form-control">
+            </div>
+            <div class="form-group mt-3">
+              <input type="password" name="password" placeholder="Password *" class="form-control">
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" name="Mobile" placeholder="Mobile *" class="form-control">
+            </div>
+
+            <div class="form-group mt-3">
+              <select name="state"  placeholder="State *" class="form-control">
+                <option value="">-select state-</option>
+                <option value="">Gujrat</option>
+                <option value="">Mahrastra</option>
+              </select>
+            </div>
+            <div class="form-group mt-3">
+              <input type="submit" name="add-employee" value="AddEmployee"  class="btn btn-md btn-dark text-white">
+              <input type="reset" name="reset" value="Reset"  class="btn btn-md btn-danger text-white ms-2">
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+ 
+ </div>
+
+</body>
+</html>

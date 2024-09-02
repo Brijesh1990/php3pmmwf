@@ -1,0 +1,48 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    box-sizing: border-box;
+}
+.navbar-link
+{
+    margin-left: 35%;
+}
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 15px 25px;
+}
+.navbar-link a 
+{
+    color: white;
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-menu 
+{
+    display: block;
+}
+.sidebar li 
+{
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+.sidebar a 
+{
+    text-decoration: none !important;
+    list-style-type: none !important;
+    color: white; 
+}
+
+@media only screen and (max-width:480px)
+{
+.navbar-link
+{
+    margin-left: 0% !important;
+}
+    .navbar-link li 
+    {
+        display: block !important;
+    }
+}
